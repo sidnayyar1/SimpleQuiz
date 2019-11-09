@@ -14,6 +14,9 @@
 		019814DD23766138005C3EF5 /* SimpleQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 019814DB23766138005C3EF5 /* SimpleQuiz.xcdatamodeld */; };
 		019814DF2376613A005C3EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019814DE2376613A005C3EF5 /* Assets.xcassets */; };
 		019814E22376613A005C3EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019814E02376613A005C3EF5 /* LaunchScreen.storyboard */; };
+		019814EA237661DD005C3EF5 /* Ques1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019814E9237661DD005C3EF5 /* Ques1ViewController.swift */; };
+		019814EC2376696F005C3EF5 /* Ques2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019814EB2376696F005C3EF5 /* Ques2ViewController.swift */; };
+		019814F023768585005C3EF5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019814EF23768585005C3EF5 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		019814DE2376613A005C3EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019814E12376613A005C3EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019814E32376613A005C3EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019814E9237661DD005C3EF5 /* Ques1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ques1ViewController.swift; sourceTree = "<group>"; };
+		019814EB2376696F005C3EF5 /* Ques2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ques2ViewController.swift; sourceTree = "<group>"; };
+		019814EF23768585005C3EF5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				019814E02376613A005C3EF5 /* LaunchScreen.storyboard */,
 				019814E32376613A005C3EF5 /* Info.plist */,
 				019814DB23766138005C3EF5 /* SimpleQuiz.xcdatamodeld */,
+				019814E9237661DD005C3EF5 /* Ques1ViewController.swift */,
+				019814EB2376696F005C3EF5 /* Ques2ViewController.swift */,
+				019814EF23768585005C3EF5 /* ResultViewController.swift */,
 			);
 			path = SimpleQuiz;
 			sourceTree = "<group>";
@@ -143,8 +152,11 @@
 			files = (
 				019814D723766138005C3EF5 /* ViewController.swift in Sources */,
 				019814D323766138005C3EF5 /* AppDelegate.swift in Sources */,
+				019814EA237661DD005C3EF5 /* Ques1ViewController.swift in Sources */,
+				019814F023768585005C3EF5 /* ResultViewController.swift in Sources */,
 				019814DD23766138005C3EF5 /* SimpleQuiz.xcdatamodeld in Sources */,
 				019814D523766138005C3EF5 /* SceneDelegate.swift in Sources */,
+				019814EC2376696F005C3EF5 /* Ques2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
